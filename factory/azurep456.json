@@ -1,0 +1,9 @@
+{
+	"name": "azurep456",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b13feda4-0589-4611-9d0e-9af7d92463bd",
+		"tenantId": "7bcabf25-e8d5-4d79-b652-96d324e45d8f"
+	}
+}
