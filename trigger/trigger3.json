@@ -1,0 +1,24 @@
+{
+	"name": "trigger3",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline3",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/inputcsv/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/e9ee089c-1ca1-4472-9652-0e8275c6865e/resourceGroups/RG-AzureProject/providers/Microsoft.Storage/storageAccounts/azureproject567",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
