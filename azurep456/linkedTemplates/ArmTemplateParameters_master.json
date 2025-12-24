@@ -20,6 +20,9 @@
 		"blobLinkservice_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"value": "empdatabaseserver.database.windows.net"
 		},
@@ -28,6 +31,9 @@
 		},
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "hariadmin"
+		},
+		"trigger2_properties_typeProperties_scope": {
+			"value": "/subscriptions/e9ee089c-1ca1-4472-9652-0e8275c6865e/resourceGroups/RG-AzureProject/providers/Microsoft.Storage/storageAccounts/azureproject567"
 		},
 		"containerUri": {
 			"value": ""
