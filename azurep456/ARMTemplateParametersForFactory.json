@@ -11,8 +11,23 @@
 		"AzureBlobStorage2_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
 		"DeleteActivityLinkedService_connectionString": {
 			"value": ""
+		},
+		"blobLinkservice_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "empdatabaseserver.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "empdatabase"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "hariadmin"
 		}
 	}
 }
