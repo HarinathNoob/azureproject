@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Delete input data",
+				"name": "Delete Input data",
 				"type": "Delete",
 				"dependsOn": [],
 				"policy": {
@@ -16,12 +16,12 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "Binary1",
+						"referenceName": "Binary2",
 						"type": "DatasetReference"
 					},
 					"logStorageSettings": {
 						"linkedServiceName": {
-							"referenceName": "DeleteActivityLinkedService",
+							"referenceName": "AzureBlobStorage2",
 							"type": "LinkedServiceReference"
 						},
 						"path": "input"
